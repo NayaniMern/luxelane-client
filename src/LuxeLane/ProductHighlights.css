@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Markazi+Text:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+
+
+
+.product-highlights {
+  padding: 32px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  margin-top: 32px;
+}
+
+.product-highlights h2 {
+  font-size: 32px;
+  margin-bottom: 35px;
+  font-weight: 600;
+  color: #392467;
+  text-transform: uppercase;
+}
+
+.product-highlights .feature {
+  margin-bottom: 32px;
+}
+
+.product-highlights h5 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.product-highlights p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(27, 26, 26);
+  line-height: 1.6;
+}

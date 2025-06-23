@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Markazi+Text:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+  .footer-container{
+    background-color: #FFCDb2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .footer-container h1 img{
+    width: 80%;
+    height: 9vh;
+  }
+ 
+  .footer-container h1{
+    color: rgb(7, 7, 109);
+       
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 30px;
+        font-weight: 600;
+        position: relative;
+      
+        margin-bottom: 20px;
+  }
+ 
+  .footer-container h3{
+  
+    font-family: "Roboto Serif", serif;
+      font-size: 30px !important;
+     color:  #02374c;
+     font-weight: 600;
+     margin-top: 20px;
+    }
+    .footer-container i:hover{
+        color: darkblue;
+    }
+    .footer-container span{
+        font-size: 15px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+    }
+    .footer-container1 h5{
+        font-size: 15px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  border: 1px dotted #000;
+  padding: 10px;
+    }
+ 
+    
+ .footer-container i{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+ }
+ 
+ .links ul{
+    padding-left: 0%;
+ }
+ 
+ .links ul li{
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Roboto Serif", serif;
+  
+
+ }
+ .links ul li:hover,.account ul li:hover{
+    color:#02374c;
+ }
+ .links ul a{
+  color: transparent;
+  
+ }
+ .account ul{
+    padding-left: 0%;
+ }
+ .account ul li{
+  display: block !important;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-family: "Roboto Serif", serif;
+  text-decoration:none!important ;
+  
+ }
+  
+  
+     

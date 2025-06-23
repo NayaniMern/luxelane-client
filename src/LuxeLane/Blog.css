@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Markazi+Text:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+.blog_background {
+  background-image: url(assets/background.webp);
+  width: 100%;
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  display: flex;
+  background-repeat: no-repeat;
+
+  align-items: center;
+}
+.blog_background h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+}
+.blog_background h5,
+.blog_background h6 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+}
+.blog_background h5::after {
+  content: "\003E \003E";
+  color: black;
+  position: absolute;
+  margin-left: 15px;
+}
+.blogs-container h1{
+    font-size: 35px;
+    position: relative;
+    
+    text-transform: uppercase;
+    color: #392467;
+    font-weight: 900;
+    text-align: center;
+  }
+  .blogs-container h1::after {
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    background-color: #8a3071;
+    bottom: -5px;
+    left: 47%;
+  }
+  
+
+    .blogs-container .service-data:hover{
+      
+      transform: translateY(-2%);
+      transition: all 0.5s ease-in-out;
+    
+      
+    }
+    .blogs-container h3{
+      font-size: 23px;
+      font-weight: 600;
+     
+    
+      color: #392467;
+    }
+    .blogs-container p{
+      font-size: 15px;
+      font-weight: 500;
+      color: #000;
+    text-align: justify;
+    font-family: "Roboto Serif", serif;
+    }
+    .blogs-container img{
+        height: 280px;
+      }
+
+/*AddBlogs.js*/
+.addblog h1 {
+    font-size: 35px;
+    position: relative;
+    
+    text-transform: uppercase;
+    color: #392467;
+    font-weight: 900;
+  }
+  .addblog h1::after {
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    background-color: #8a3071;
+    bottom: -5px;
+    left: 47%;
+  }
+  
+  .addblog button{
+    background-color: #8a3071;
+    padding: 5px 10px;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: capitalize;
+  }
+  .addblog button:hover{
+    background-color: 	#d96690;
+  }
+
+  .blog_details img{
+   border-radius: 20px;
+    }
+    .blog_details h3{
+      font-size:28px;
+      font-weight: 600;
+      color: #a31d1d;
+      text-transform: uppercase;
+      
+    }
+    .blog_details h5{
+      font-size: 22px;
+      font-weight: 600;
+      color: #8a3071;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .blog_details p{
+      font-size: 15px;
+      font-weight: 500;
+      color: #000;
+    text-align: justify;
+    font-family: "Roboto Serif", serif;
+    line-height: 30px;
+    text-transform: capitalize;
+      
+      
+    }
+    .posts-main h2{
+      font-size: 30px;
+      position: relative;
+      
+      text-transform: uppercase;
+      color: #392467;
+      font-weight: 900;
+      text-align: center;
+      
+    }
+    .posts-main h2::after {
+      content: "";
+      width: 100px;
+      height: 3px;
+      position: absolute;
+      background-color: #8a3071;
+      bottom: -5px;
+      left: 38%;
+    }
+    .posts-main p{
+    
+      color: #000;
+      align-content: center;
+  
+    }
+    .posts-content{
+      border-bottom: 1px solid #000;
+      margin: 10px 0px;
+    }
+    .posts-content img{
+      margin-bottom: 10px;
+    }
+    

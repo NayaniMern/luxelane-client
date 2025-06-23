@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Markazi+Text:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+.men_background {
+  background-image: url(assets/background.webp);
+  width: 100%;
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  display: flex;
+  background-repeat: no-repeat;
+
+  align-items: center;
+}
+.men_background h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+}
+.men_background h5,
+.men_background h6 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+}
+.men_background h5::after {
+  content: "\003E \003E";
+  color: black;
+  position: absolute;
+  margin-left: 15px;
+}
+
+/*AddMen*/
+
+.addmen h3 {
+  font-size: 35px;
+  position: relative;
+
+  text-transform: uppercase;
+  color: #392467;
+  font-weight: 900;
+}
+.addmen h3::after {
+  content: "";
+  width: 120px;
+  height: 4px;
+  position: absolute;
+  background-color: #8a3071;
+  bottom: -7px;
+  left: 43%;
+}
+
+.addmen button {
+  background-color: #8a3071;
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.addmen button:hover {
+  background-color: 	#d96690;
+}
+.mens-container h2 {
+  color: #392467;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: justify;
+}
+.mens-container h5 {
+  text-align: center;
+  border: 1px dotted black;
+  color: #a31d1d;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.mens-container .main img {
+  position: relative;
+}
+.mens-container i {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
+}
+.mens-container p {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+  background-color: gray;
+  border-radius: 60px;
+  padding: 5px;
+}
+.mens-container span {
+  font-size: 17px;
+  font-family: "Roboto Serif", serif;
+  color: #000;
+  font-weight: 600;
+}
+.mens-container .op {
+  font-size: 17px;
+  font-family: "Roboto Serif", serif;
+  color: #000;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.mens-container img {
+  width: 60px;
+}
+.mens-container img:hover {
+  transform: rotate(360deg);
+  transition: 0.8s ease-in;
+}
+.mens-container h1 {
+  font-size: 35px;
+  position: relative;
+
+  text-transform: uppercase;
+  color: #392467;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mens-container h1::after {
+  content: "";
+  width: 120px;
+  height: 4px;
+  position: absolute;
+  background-color: #8a3071;
+  bottom: -7px;
+  left: 45%;
+}
+.product-details span {
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.product-details-right h1 {
+  font-size: 28px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.product-details-right h3,
+.product-details-right h5,
+.product-details-right h2 {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #a31d1d;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.product-details-right h3 span {
+  font-size: 23px;
+  margin-left: 20px;
+  color: #000;
+  font-weight: 600;
+}
+.product-details-right h5 span {
+  font-size: 23px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.product-details select {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000;
+}
+.product-details-right .price .discount {
+  margin-top: 30px;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  font-size: 17px;
+}
+.product-details-right .price .dp {
+  margin-top: 22px;
+  color: #000;
+  padding: 10px;
+  font-size: 23px !important;
+  margin-left: 20px;
+}
+.product-details-right .price .op {
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+}
+.product-details-right .price .op span {
+  font-size: 20px;
+  color: #000;
+
+  text-decoration: line-through;
+}
+.product-details button {
+  background-color: #8a3071;
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: capitalize;
+  margin-top: 10px !important;
+}
+.product-details button:hover {
+  background-color: 	#d96690!important;
+}
+.product-dec h1 {
+  font-size: 30px;
+  position: relative;
+
+  text-transform: uppercase;
+  color: #392467;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-dec h1::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  background-color: #8a3071;
+  bottom: -7px;
+  left: 35%!important;
+}
+.product-dec p {
+  font-family: "Roboto Serif", serif;
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #000;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.product li {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px 0;
+  border-bottom: 1px solid #eee;
+ font-size: 22px!important;
+  color: #a31d1d!important;
+  text-align: justify;
+}
+
+
+.product  span {
+ 
+  font-family: "Roboto Serif", serif;
+  line-height: 30px;
+text-transform: capitalize;
+text-align: justify!important;
+  font-weight: 500;
+
+  color: #000!important;
+  font-size: 17px;
+}
+.product-dec ul li i {
+  color: #a31d1d;
+  font-weight: 900;
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+.zoom-wrapper:hover img {
+  transform: scale(1.2);
+}
+.zoom-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.zoom-wrapper img {
+  transition: transform 0.8s;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid gray;
+  max-height: 500px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  .main-img {
+    height: 300px !important;
+    object-fit: contain;
+    width: 200px !important;
+  }
+}
+
+.nav-pills .nav-link.active{
+  background-color: #d96690 !important;
+}
+.nav-pills button:hover{
+  background-color: rgb(102, 62, 62)!important;
+  color: #fff;
+}
+
+/* Sidebar Filter Styling */
+.side-bar {
+  background-color: lightgray;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+@media (min-width: 992px) {
+  .side-bar {
+    position: sticky;
+    height: auto;
+    top: 100px;
+  }
+}
+.side-bar h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+ .accordion-item button {
+  font-size: 17px;
+  font-weight: bold;
+ 
+ 
+  text-transform: uppercase!important;
+  color: #333;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filter-group select,
+.filter-group input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.filter-group option {
+  color: #000 !important;
+}
+
+.filter-group select:hover,
+.filter-group input[type="number"]:hover
+ {
+  border-color: #000;
+}

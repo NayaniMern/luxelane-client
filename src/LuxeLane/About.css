@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Markazi+Text:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Serif", serif;
+}
+.about_background {
+  background-image: url(assets/background.webp);
+  width: 100%;
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  display: flex;
+  background-repeat: no-repeat;
+
+  align-items: center;
+}
+.about_background h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+}
+.about_background h5,
+.about_background h6 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+}
+.about_background h5::after {
+  content: "\003E \003E";
+  color: black;
+  position: absolute;
+  margin-left: 15px;
+}
+.about-main-content h1 {
+  color: #392467;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.about-main-content h1::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  background-color: #8a3071;
+  bottom: -5px;
+  left: 44%;
+}
+.about-main-content img {
+  border-radius: 200px;
+}
+.about-main-content p {
+  font-size: 15px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+}
+.story-content h1 {
+  color: #392467;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.story-content h1::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  position: absolute;
+  background-color: #8a3071;
+  bottom: -5px;
+  left: 44%;
+}
+.story-content img {
+  border-radius: 200px;
+}
+.story-content p {
+  font-size: 15px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+}
+.mv-elementor .card{
+  box-shadow: 0 4px 15px  #89ac46;
+}
+.mv-elementor p {
+  font-size: 15px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+  
+}
+.service-container h1{
+   
+        color: #392467;
+        position: relative;
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 30px;
+      }
+      .service-container h1::after {
+        content: "";
+        width: 70px;
+        height: 3px;
+        position: absolute;
+        background-color: #8a3071;
+        bottom: -5px;
+        left: 47%;
+      }
+      .service-container p {
+        font-size: 15px;
+        font-family: "Roboto Serif", serif;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 30px;
+        text-align: justify;
+        margin-top: 20px;
+        
+      }
+      .service-container h3{
+        margin-top: 20px;
+        color: #8a3071;
+        font-size: 30px;
+      }
+      .service-container .col-lg-6:hover{
+background-color: rgb(240, 234, 227);
+      }
+      .team-elementor h2{
+   
+        color: #392467;
+        position: relative;
+        font-size: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      .team-elementor h2::after {
+        content: "";
+        width: 70px;
+        height: 3px;
+        position: absolute;
+        background-color: #8a3071;
+        bottom: -5px;
+        left: 47%;
+      }
+      .team-elementor .card{
+        box-shadow: 0px 2px 40px gray;
+        margin-top: 20px;
+      
+  
+      }
+      .team-elementor .card:hover{
+       
+        border-radius: 100px;
+        transition: 0.5s ease;
+      }
+      .team-elementor img{
+        border-radius: 100px;
+        height: 150px;
+        width: 150px;
+        display: flex;
+      justify-content: center !important;  
+      }
+      .team-elementor h1{
+        text-transform: uppercase;  
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #8a3071;
+      }
+      .team-elementor h3{
+        text-transform: capitalize;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        color: #000;
+      }
+      .team-elementor i {
+        
+        color: rgb(69, 69, 162);
+        font-weight: 500;
+        font-size: 16px;
+      }
+      
