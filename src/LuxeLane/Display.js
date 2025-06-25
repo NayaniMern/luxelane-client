@@ -12,10 +12,10 @@ const Display = ({ days, hours, minutes, seconds }) => {
             <th className="border rounded fs-5 px-3 py-2 bg-light text-dark">{seconds}</th>
           </tr>
           <tr>
-            <td className="fw-bold fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Days</td>
-            <td className="fw-bold  fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Hours</td>
-            <td className="fw-bold fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Minutes</td>
-            <td className="fw-bold  fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Seconds</td>
+            <td className="fw-bold fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Dy</td>
+            <td className="fw-bold  fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Hr</td>
+            <td className="fw-bold fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Min</td>
+            <td className="fw-bold  fs-5 " style={{color:"	#b8860b", textTransform:"uppercase"}}>Sec</td>
           </tr>
         </tbody>
       </table>
