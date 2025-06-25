@@ -248,7 +248,7 @@ const Home = () => {
                 <span>&#10022;</span>
               </div>
             </div>
-            <div className="col-lg-6  align-content-center ">
+            <div className="col-lg-6 px-5  align-content-center ">
 
 <Countdown/>
             </div>
