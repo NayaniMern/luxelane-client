@@ -235,7 +235,7 @@ const Home = () => {
       <section>
         <div className="container bg-light mb-3 luxe-container py-4 text-center">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="luxe-star-top">&#9733;</div>
               <h1 className="luxe-heading">The Luxe Drop Starts In…</h1>
              
@@ -248,10 +248,7 @@ const Home = () => {
                 <span>&#10022;</span>
               </div>
             </div>
-            <div className="col-lg-6 px-5  align-content-center ">
-
-<Countdown/>
-            </div>
+            
           </div>
         </div>
       </section>
