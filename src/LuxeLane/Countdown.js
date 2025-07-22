@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Display from "./Display";
 
 const Countdown = () => {
-  const endTime = new Date("June 30, 2025 00:00:00").getTime();
+  const endTime = new Date("August 30, 2025 00:00:00").getTime();
   const [currentTime, setCurrentTime] = useState(new Date().getTime());
   const gap = endTime - currentTime;
 
